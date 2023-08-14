@@ -48,11 +48,11 @@ yarn start
 
 Here are the example images used in the demo:
 
-Avatar Image: 
+Avatar Image (original, e.g., it can be your photo): 
 
 <img src="resources/avatar.jpg" width="200">
 
-Look Image: 
+Look Image (clothes you want to try on in your photo):
 
 <img src="resources/look.jpg" width="200">
 
