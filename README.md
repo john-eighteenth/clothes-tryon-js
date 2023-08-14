@@ -12,15 +12,21 @@ Before you begin, make sure you have the following prerequisites:
 
 1. Clone this repository to your local machine:
 
+```
 git clone https://github.com/john-eighteenth/clothes-tryon-js.git
+```
 
 2. Navigate to the project directory:
 
+```
 cd clothes-tryon-js
+```
 
 3. Install any necessary dependencies:
 
+```
 yarn install
+```
 
 ## Usage
 
@@ -32,9 +38,19 @@ yarn install
 
 4. Run the virtual dressing room script:
 
+```
 yarn start
+```
 
 5. The script will generate an output image (`result.jpg`) showing the avatar wearing the chosen clothing item.
+
+## Demo
+
+Here are the example images used in the demo:
+
+- Look Image: [Look](resources/look.jpg)
+- Avatar Image: [Avatar](resources/avatar.jpg)
+- Result Image: [Result](resources/result.jpg)
 
 ## Contributing
 
