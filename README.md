@@ -48,7 +48,7 @@ yarn start
 
 Here are the example images used in the demo:
 
-- Avatar Image: ![Avatar](resources/avatar.jpg|width=200)
+- Avatar Image: <img src="resources/avatar.jpg" width="200">
 - Look Image: ![Look](resources/look.jpg|width=200)
 - Result Image: ![Result](resources/result.jpg|width=200)
 
