@@ -48,14 +48,14 @@ yarn start
 
 Here are the example images used in the demo:
 
-- Avatar Image: 
+Avatar Image: 
 
 <img src="resources/avatar.jpg" width="200">
-- Look Image: 
+Look Image: 
 
 <img src="resources/look.jpg" width="200">
 
-- Result Image: 
+Result Image: 
 <img src="resources/result.jpg" width="200">
 
 ## Contributing
