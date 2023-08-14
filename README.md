@@ -1,6 +1,6 @@
 # Virtual Dressing Room TypeScript Example
 
-Welcome to the Virtual Dressing Room Example project! This repository demonstrates the usage of a (Texel.Moda)[https://texelmoda.com/] virtual dressing room system that allows users to try on different outfits using images of clothing items and avatars. The project utilizes the RapidAPI platform to make the virtual try-on process seamless.
+Welcome to the Virtual Dressing Room Example project! This repository demonstrates the usage of a [Texel.Moda](https://texelmoda.com/) virtual dressing room system that allows users to try on different outfits using images of clothing items and avatars. The project utilizes the RapidAPI platform to make the virtual try-on process seamless.
 
 ## Prerequisites
 
