@@ -4,7 +4,7 @@ import { RAPID_API_KEY, AVATAR_URI, LOOK_URI } from "./config";
 
 const virtualTryOn = async () => {
   const encodedParams = new URLSearchParams();
-  encodedParams.set("clothing_image_url", LOOK_URI)
+  encodedParams.set("clothing_image_url", LOOK_URI);
   encodedParams.set("avatar_image_url", AVATAR_URI);
 
   const options = {
@@ -16,16 +16,17 @@ const virtualTryOn = async () => {
       "X-RapidAPI-Host": "texel-virtual-try-on.p.rapidapi.com",
     },
     data: encodedParams,
-    responseType: 'arraybuffer' as ResponseType,
+    responseType: "arraybuffer" as ResponseType,
   };
-  
+
   try {
     const response = await axios.request(options);
-    fs.writeFileSync("result.jpg", Buffer.from(response.data), {encoding: "binary"})
-//    console.log(response.data);
+    fs.writeFileSync("result.jpg", Buffer.from(response.data), {
+      encoding: "binary",
+    });
   } catch (error) {
     console.error(error);
   }
-}
+};
 
 virtualTryOn();
