@@ -1,25 +1,30 @@
 {
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node"
-  },
   "compilerOptions": {
+    "useDefineForClassFields": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["ESNEXT", "dom"],
+    "allowJs": false,
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "downlevelIteration": true,
+    "isolatedModules": false,
     "strict": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "target": "ESNext",
-    "baseUrl": ".",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "@apps/*": ["apps/*"],
+      "@modules/*": ["modules/*"]
+    },
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["./**/*.js", "./**/*.ts", "./*.js", "./*.ts", "./.*.js", "./.*.ts"]
+  "include": ["src/index.ts"]
 }
+
