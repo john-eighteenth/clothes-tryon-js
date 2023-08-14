@@ -6,7 +6,7 @@ Welcome to the Virtual Dressing Room Example project! This repository demonstrat
 
 Before you begin, make sure you have the following prerequisites:
 
-- RapidAPI Account: To access the virtual dressing room API, you need a RapidAPI account. Visit RapidAPI website to sign up and obtain an API key.
+- RapidAPI Account: To access the virtual dressing room API, you need a RapidAPI account. Visit [RapidAPI website](https://rapidapi.com/texel-inc-texel-inc-default/api/texel-virtual-try-on) to sign up and obtain an API key.
 
 ## Installation
 
@@ -30,7 +30,7 @@ yarn install
 
 ## Usage
 
-1. Obtain your RapidAPI key by signing up on the RapidAPI website.
+1. Obtain your RapidAPI key by signing up on the [RapidAPI website](https://rapidapi.com/texel-inc-texel-inc-default/api/texel-virtual-try-on).
 
 2. Open the `src/config.ts` file and replace `'RAPID_API_KEY'` with your actual RapidAPI key.
 
